@@ -34,8 +34,7 @@
     "test:jest": "jest --no-watchman --runInBand",
     "test:coverage": "jest --no-watchman --maxWorkers 2 --coverage && codecov",
     "watch": "watch 'clear && yarn run test -s' source",
-    "watch:jest": "jest --no-watchman --watch",
-    "prepare": "npm run build"
+    "watch:jest": "jest --no-watchman --watch"
   },
   "husky": {
     "hooks": {
